@@ -13,6 +13,8 @@ script:
   - yarn lint
   - echo "Building..."
   - yarn build:prod
+  - echo "$FIREBASE_TOKEN"
+  - echo $FIREBASE_TOKEN
 before_deploy:
   - echo "Deploying!"
 deploy:

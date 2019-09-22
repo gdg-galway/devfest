@@ -162,6 +162,7 @@ function deploy() {
       require(path.join(process.cwd(), file))
     );
   }
+  console.log("debugger ->", process.env);
   return run(
     `firebase use ${metadata.firebase.projectId} && firebase deploy --token "$FIREBASE_TOKEN"`
   ).exec();
