@@ -5,7 +5,7 @@ cache:
   yarn: true
   directories:
     - node_modules
-    - '${NVM_PATH}_modules'
+    - "${NVM_PATH}_modules"
 install:
   - yarn
   - cd functions && yarn && cd ..
@@ -18,8 +18,8 @@ before_deploy:
 deploy:
   - provider: firebase
     skip_cleanup: true
-    'on':
+    "on":
       branch: master
     project: devfest
     token:
-      secure: dH2t9T+ydWtytB9JMVkbt46Ku2xOYi6dIlLFjyiFvTpYmUs6VZIFBkUP+1ohAlAgjlLeFeqFkWHpCbZfPp2tiPrF+y7VFIXxDM3wlByYyg+cCJDunvqgS7VJ2MX1XviiKIiElgu09T7FiV/59Y3GAh54KL4T8IB5+64tROGMXqgmYv2uwtgNH1AaNjkJFSQ+M9D4JBCpikZYe0Y+aU96IFrpPuo8wjLjk9UL/1WeVmjY1pmHpX0KkYDd4djuXe3wIVPnbzwbWgD7C+vzjFxeaktQv+I4axYj2gPtEuH+sDFU60mIiJoWDsdElUuiV3Sn5mJY5VmbufqNH9ijCl9Um2ufnu16aTQYja39sqK8dQrUsySesebHGNh+aUynusr7FXZInqjSxt7gBjJZGKuvPCRYlx7kZXB/gsij1zY1XlcGe83eCHJV3Ioa1xV8BOaCJTaCQAMmQBH1UVCB7xXsVUgAtlC4LCtjAvxeS7wrKmcVn7CGLXKF8y5Cg9SbtPIYfY3gtDeRYWM3aB28xOq2Zs3u11E4bkjEUWhey1uzbF1J2yOjIwo9l+uroSxmnpoeTjIiXFMBTn+crZ+ygdoB8Pb2zM0M0EukoYbVck7cQa9lICHPFob5UJUdbkpj0qAKOxtx+Uxlb4CUi+KNFeemQ4y9yaZ8IGbPtKycVMJXiOk=
+      secure: eIQcuHS43/aAMBlb8sjLrT4mSVOVVFhUx650JqWuDwy8ncjwlTCQSs5lInPo9eIJosg8PMIuP//+c+N+uR6v7bmS89HlOfVfUfawOQ/eeqwZyv83RibMK2fRO8xpjyjvBZpl0WsBJV2ShXeMej6Ay7QOBdYSH2xPoWWuWuD7WOBDpiLA2NgNDF9TXd/gPe/0FoZdaMcpmyp7obeOO9jwN4NUn9q7f/8YSBc0dsOrZFC2rJe8Qs08jnhKPkMHsnImsxu33Nyr9Cxt2TtgRQE2rWiTAya60oXE8Wzp/CmJXqKci2HBDg+pCSd7kwUb46f7m2RuCDiusrhA6rO7wodULQwz0MBnm+Ba6Ge/6HbffSBPxQV0uFjC5svQNd0rf1+nOcv/792Rhp/c8d+IPQqLdm6jxmHDSeuUqgWJm3GWZ2v7pZnUq9gxORu4ULBsLij04ezbceMTstoZi5dPUYh4+nZPq+wW9qxAW1CKraLNbI1uGtFZ+FxD7zeBX1K/VAQteEupmvacKxFIlvjqvHSa8a10yxNkdeuhe05R/MmBU6UE/YzT1OQRrWu3n1urzw9wcFG6kEiqGNEJix5R/R8IGm9mqQjupRuBzzWnAJIH8gAYpT4IdbJeG8tg5wSv9+Dxwo7ceAFb+dSRh2wcEWPIB6zbyyuuMFHyc0cGcAW2qvM=
