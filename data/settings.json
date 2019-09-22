@@ -1,12 +1,12 @@
 {
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv",
-    "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "name": "GDG Galway",
+    "twitter": "GdgGalway",
+    "blog": "https://medium.com/@gdggalway",
+    "url": "https://gdg-galway.com/"
   },
-  "startDate": "2017-10-013T09:00:00+03:00",
-  "endDate": "2017-10-14T19:00:00+03:00",
+  "startDate": "2019-11-23T09:00:00+00:00",
+  "endDate": "2019-11-23T19:00:00+00:00",
   "webapp": {
     "shortName": "DevFest",
     "themeColor": "#673AB7",
@@ -113,20 +113,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "name": "NUI Galway, Alice Perry Engineering Building",
+    "city": "Galway",
+    "short": "Galway, Ireland",
+    "address": "University Road, Galway, Ireland",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 0,
+      "longitude": 0,
       "zoom": 5
     },
     "mapCenter": {
       "latitude": 48,
       "longitude": 8
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Completed in November 2010, the Engineering Building houses 1100 students and 110 staff across 400 rooms, making it the largest engineering school in Ireland. It also includes Zinc Café. The architect was a partnership between Taylor Architects and RMJM, while the lead structural engineers on the project were ARUP Consulting and BAM Contractors led the construction. The Engineering Building was built using low embodied energy materials such as zinc and includes novel voided slab systems, grass roofs for water attenuation, natural ventilation, heat exchangers and many other cutting-edge technologies. It was the Public Choice in the 2012 RIAI Irish Architecture Awards. Its resourcefulness as a teaching tool is exciting for students and academics with its exposed construction techniques and an array of ecological building methods."
   },
   "mediaQueries": {
     "xs": {
@@ -148,23 +148,15 @@
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Lviv/events/244342635/"
+        "url": "https://www.meetup.com/en-AU/Google-Developers-Group-in-Galway-Meetup/events/263420308/"
       },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/GDGgalway/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
-      },
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "url": "https://twitter.com/GdgGalway"
       }
     ],
     "share": [
@@ -178,23 +170,13 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "gdggalway@gmail.com",
   "signInProviders": {
     "providersData": [
       {
         "name": "google",
         "label": "Sign in with Google",
         "url": "https://accounts.google.com"
-      },
-      {
-        "name": "facebook",
-        "label": "Sign in with Facebook",
-        "url": "https://www.facebook.com"
-      },
-      {
-        "name": "twitter",
-        "label": "Sign in with Twitter",
-        "url": "https://twitter.com"
       }
     ],
     "allowedProvidersUrl": [
