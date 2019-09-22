@@ -12,15 +12,22 @@ install:
 script:
   - yarn lint
   - echo "Building..."
-  - yarn build:prod
-  - yarn deploy:prod
-# before_deploy:
-#   - echo "Deploying!"
-# deploy:
-#   - provider: firebase
-#     skip_cleanup: true
-#     "on":
-#       branch: master
-#     project: devfest
-#     token:
-#       secure: NkUJve896KPPZS4uSXAuM4vDei+CuzQDa5V7h+0HUMj0mcBYRMJBhZWSQ+7dpHujlMH3r9IU5bGQnpnfmzTSjJi9iyII38hBSYIXsMOIVrqI1lA5pbFA34w9lk62dxcvuuhAvLavYFED1h0F6Bsno29HuQzlHklc5sYSr0m2VhG/YlK2kw5BCnAEublvXRD39ZR+MllHQRpUXB/WAq0Y2oU0YeEwGT30tIEto5jr5XnJZgWTYZaKscHyvVlaMhI2PVf44On1ryyNLyf8dwfLo+FgJd7Mkgu8qD87HNtkDAnPK38AkLQ93jUU4zkltHZXy8qsU9yezmNGyOAMVwVOq1AAKlcStykUg1d5FahvQgskQ0fLDfYMbzadxiNoBW6e9SVlaXje/ZB3N0/EDOzR7SvXKtMTNf97E5NemLSrzzJ27QoIU2eTXSBmiMeNpj0E0QUsDxhzaTvsV8fZzyufJoDET/yfk6hLMKif+R8FjtRI7JZSkYoEs8jzvLqJ7gTCHhY6LHJZUDYECJou8zYztFYOnL2qH7kG2j1rVqLyMW1RaDHqUKSszWc3+YejfNWyP0hq9YXCAD72/PJ4KWfJsk6wmAn4GDg+ZWAIZstfCEgblXSaRn0W8JEadd8E3P9VAIkE3cQ4vFg97YRt8Qek+O9CsZdXJaZsKzhuAshMH64=
+  - 'if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi'
+  - 'if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi'
+before_deploy:
+  - echo "Deploying!"
+deploy:
+  - provider: firebase
+    skip_cleanup: true
+    "on":
+      branch: master
+    project: master
+    token:
+      secure: dH2t9T+ydWtytB9JMVkbt46Ku2xOYi6dIlLFjyiFvTpYmUs6VZIFBkUP+1ohAlAgjlLeFeqFkWHpCbZfPp2tiPrF+y7VFIXxDM3wlByYyg+cCJDunvqgS7VJ2MX1XviiKIiElgu09T7FiV/59Y3GAh54KL4T8IB5+64tROGMXqgmYv2uwtgNH1AaNjkJFSQ+M9D4JBCpikZYe0Y+aU96IFrpPuo8wjLjk9UL/1WeVmjY1pmHpX0KkYDd4djuXe3wIVPnbzwbWgD7C+vzjFxeaktQv+I4axYj2gPtEuH+sDFU60mIiJoWDsdElUuiV3Sn5mJY5VmbufqNH9ijCl9Um2ufnu16aTQYja39sqK8dQrUsySesebHGNh+aUynusr7FXZInqjSxt7gBjJZGKuvPCRYlx7kZXB/gsij1zY1XlcGe83eCHJV3Ioa1xV8BOaCJTaCQAMmQBH1UVCB7xXsVUgAtlC4LCtjAvxeS7wrKmcVn7CGLXKF8y5Cg9SbtPIYfY3gtDeRYWM3aB28xOq2Zs3u11E4bkjEUWhey1uzbF1J2yOjIwo9l+uroSxmnpoeTjIiXFMBTn+crZ+ygdoB8Pb2zM0M0EukoYbVck7cQa9lICHPFob5UJUdbkpj0qAKOxtx+Uxlb4CUi+KNFeemQ4y9yaZ8IGbPtKycVMJXiOk=
+  - provider: firebase
+    skip_cleanup: true
+    "on":
+      branch: develop
+    project: master
+    token:
+      secure: dH2t9T+ydWtytB9JMVkbt46Ku2xOYi6dIlLFjyiFvTpYmUs6VZIFBkUP+1ohAlAgjlLeFeqFkWHpCbZfPp2tiPrF+y7VFIXxDM3wlByYyg+cCJDunvqgS7VJ2MX1XviiKIiElgu09T7FiV/59Y3GAh54KL4T8IB5+64tROGMXqgmYv2uwtgNH1AaNjkJFSQ+M9D4JBCpikZYe0Y+aU96IFrpPuo8wjLjk9UL/1WeVmjY1pmHpX0KkYDd4djuXe3wIVPnbzwbWgD7C+vzjFxeaktQv+I4axYj2gPtEuH+sDFU60mIiJoWDsdElUuiV3Sn5mJY5VmbufqNH9ijCl9Um2ufnu16aTQYja39sqK8dQrUsySesebHGNh+aUynusr7FXZInqjSxt7gBjJZGKuvPCRYlx7kZXB/gsij1zY1XlcGe83eCHJV3Ioa1xV8BOaCJTaCQAMmQBH1UVCB7xXsVUgAtlC4LCtjAvxeS7wrKmcVn7CGLXKF8y5Cg9SbtPIYfY3gtDeRYWM3aB28xOq2Zs3u11E4bkjEUWhey1uzbF1J2yOjIwo9l+uroSxmnpoeTjIiXFMBTn+crZ+ygdoB8Pb2zM0M0EukoYbVck7cQa9lICHPFob5UJUdbkpj0qAKOxtx+Uxlb4CUi+KNFeemQ4y9yaZ8IGbPtKycVMJXiOk=
