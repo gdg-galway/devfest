@@ -13,13 +13,14 @@ script:
   - yarn lint
   - echo "Building..."
   - yarn build:prod
-before_deploy:
-  - echo "Deploying!"
-deploy:
-  - provider: firebase
-    skip_cleanup: true
-    "on":
-      branch: master
-    project: devfest
-    token:
-      secure: NkUJve896KPPZS4uSXAuM4vDei+CuzQDa5V7h+0HUMj0mcBYRMJBhZWSQ+7dpHujlMH3r9IU5bGQnpnfmzTSjJi9iyII38hBSYIXsMOIVrqI1lA5pbFA34w9lk62dxcvuuhAvLavYFED1h0F6Bsno29HuQzlHklc5sYSr0m2VhG/YlK2kw5BCnAEublvXRD39ZR+MllHQRpUXB/WAq0Y2oU0YeEwGT30tIEto5jr5XnJZgWTYZaKscHyvVlaMhI2PVf44On1ryyNLyf8dwfLo+FgJd7Mkgu8qD87HNtkDAnPK38AkLQ93jUU4zkltHZXy8qsU9yezmNGyOAMVwVOq1AAKlcStykUg1d5FahvQgskQ0fLDfYMbzadxiNoBW6e9SVlaXje/ZB3N0/EDOzR7SvXKtMTNf97E5NemLSrzzJ27QoIU2eTXSBmiMeNpj0E0QUsDxhzaTvsV8fZzyufJoDET/yfk6hLMKif+R8FjtRI7JZSkYoEs8jzvLqJ7gTCHhY6LHJZUDYECJou8zYztFYOnL2qH7kG2j1rVqLyMW1RaDHqUKSszWc3+YejfNWyP0hq9YXCAD72/PJ4KWfJsk6wmAn4GDg+ZWAIZstfCEgblXSaRn0W8JEadd8E3P9VAIkE3cQ4vFg97YRt8Qek+O9CsZdXJaZsKzhuAshMH64=
+  - yarn deploy:prod
+# before_deploy:
+#   - echo "Deploying!"
+# deploy:
+#   - provider: firebase
+#     skip_cleanup: true
+#     "on":
+#       branch: master
+#     project: devfest
+#     token:
+#       secure: NkUJve896KPPZS4uSXAuM4vDei+CuzQDa5V7h+0HUMj0mcBYRMJBhZWSQ+7dpHujlMH3r9IU5bGQnpnfmzTSjJi9iyII38hBSYIXsMOIVrqI1lA5pbFA34w9lk62dxcvuuhAvLavYFED1h0F6Bsno29HuQzlHklc5sYSr0m2VhG/YlK2kw5BCnAEublvXRD39ZR+MllHQRpUXB/WAq0Y2oU0YeEwGT30tIEto5jr5XnJZgWTYZaKscHyvVlaMhI2PVf44On1ryyNLyf8dwfLo+FgJd7Mkgu8qD87HNtkDAnPK38AkLQ93jUU4zkltHZXy8qsU9yezmNGyOAMVwVOq1AAKlcStykUg1d5FahvQgskQ0fLDfYMbzadxiNoBW6e9SVlaXje/ZB3N0/EDOzR7SvXKtMTNf97E5NemLSrzzJ27QoIU2eTXSBmiMeNpj0E0QUsDxhzaTvsV8fZzyufJoDET/yfk6hLMKif+R8FjtRI7JZSkYoEs8jzvLqJ7gTCHhY6LHJZUDYECJou8zYztFYOnL2qH7kG2j1rVqLyMW1RaDHqUKSszWc3+YejfNWyP0hq9YXCAD72/PJ4KWfJsk6wmAn4GDg+ZWAIZstfCEgblXSaRn0W8JEadd8E3P9VAIkE3cQ4vFg97YRt8Qek+O9CsZdXJaZsKzhuAshMH64=
