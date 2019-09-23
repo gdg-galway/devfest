@@ -66,52 +66,112 @@
       "dateReadable": "November 23",
       "timeslots": [
         {
-          "endTime": "10:00",
+          "endTime": "09:50",
           "sessions": [
             {
-              "items": [132]
+              "items": [101]
             }
           ],
           "startTime": "09:00"
+        },
+        {
+          "endTime": "10:50",
+          "sessions": [
+            {
+              "items": [102]
+            }
+          ],
+          "startTime": "10:00"
         }
       ],
       "tracks": [
         {
-          "title": "Expo hall"
+          "title": "ENG-G047 Lecture Theatre 03 Lee Theatre"
         },
         {
-          "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
+          "title": "ENG-3035 Lecture Room 05"
         }
       ]
     }
   },
   "sessions": {
-    "132": {
+    "101": {
       "description": "Get your badge, coffee, enjoy talking with tech edicts around",
       "icon": "registration",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title": "Registration & morning Coffee"
+    },
+    "102": {
+      "complexity": "Intermediate",
+      "description": "Using AlphaGo as a motivation, I will give basics on neural networks and reinforcement learning techniques. I will go into details on how AlphaGo and his Zero derivatives work.",
+      "language": "English",
+      "speakers": ["maurizio_parton"],
+      "tags": ["AI"],
+      "title": "AlphaGo and his family, a striking improvement in AI: the five Ws"
     }
   },
   "speakers": {
-    "adrian_kajda": {
-      "bio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
-      "company": "Sygic",
-      "companyLogo": "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-      "country": "Creator of Fuelio app. Fuelio blah blah, Poland",
-      "featured": true,
-      "name": "Adrian Kajda",
-      "photo": "/images/people/adrian_kajda.jpg",
-      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
+    "fellyph_cintra": {
+      "badges": [
+        {
+          "description": "Web Technologies Google Developer Expert",
+          "link": "https://developers-dot-devsite-v2-prod.appspot.com/community/experts/directory/profile/profile-fellyph_cintra",
+          "name": "gde"
+        }
+      ],
+      "bio": "Front-end engineer addicted learner, team worker and passionate about funny socks. I have been working professionally with front-end since 2006. Digital agencies, news portal, startups and now Consultants, I've worked with different types of companies and I brought different experience from them. My strongest is client-side front-end development. Moreover, My main domains are HTML, CSS, JavaScript, SASS, Compass, Angular and React. On server-side, I usually code in Java and PHP. Originally from Brazil, currently, I'm based in Ireland living a new challenge, working with .NET e Umbraco a new platform different than what I was working before. But my belief is: if you understand the bases and the process behind each technology, you will be able to jump between different platforms. In 2010 He attended his first WordCamp as a volunteer, 4 years later became WordCamp organizer. Since attended his first WordCamp, he already participated as a speaker in 10 more WordCamps in South America and Europe, Always talking about his favourite subject: front-end and Google technologies. Work with communities is one of my passions, in 2014 I had the chance to work as a community manager on Blackberry mobile dev group. Blackberry was my first experience with a multinational company and there I had the chance to guide 10 students and work directly with the developer community in Sao Paulo.",
+      "company": "Deloitte",
+      "companyLogo": "",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/Deloitte_Logo.png?alt=media&token=f4142aa4-9e7d-4bba-b697-1fe1ddfdc853",
+      "country": "Dublin, Ireland",
+      "featured": false,
+      "name": "Fellyph Cintra",
+      "photo": "",
+      "photoUrl": "https://lh4.googleusercontent.com/-o2itzdta3ro/AAAAAAAAAAI/AAAAAAAAwwI/7-O5uDQDBvo/s172-c/photo.jpg",
       "pronouns": "he/him",
-      "shortBio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app wa...",
+      "shortBio": "Front-end engineer addicted learner, team worker and passionate about funny socks...",
       "socials": [],
       "order": 0,
-      "title": "Product Manager/Developer"
+      "title": "Senior Solution Engineer and GDE"
+    },
+    "raul_portales": {
+      "badges": [
+        {
+          "description": "Android, Internet of Things Google Developer Expert",
+          "link": "https://developers-dot-devsite-v2-prod.appspot.com/community/experts/directory/profile/profile-raul_portales",
+          "name": "gde"
+        }
+      ],
+      "bio": "Raul is a Software Engineer with a strong focus on product and quality. No longer a contractor, he also co-founded a game studio called The Pill Tree, which ran for a year. He switched from Symbian to Android in early 2009 (before Android versions had tasty names) and never looked back. He loves public speaking, and has presented at several DroidCons and Game Developer Conferences. After working a lot on front end – especially building games – Raul has developed a special interest in UX and UI. His current favourite topic is Playful Design. He also maintains the Leonids library, which is a particle system for standard Android UI. While living in Amsterdam, Raul was actively involved in Appsterdam and the DutchAUG. Since moving back to Dublin, he now collaborates with the Dublin GDG.",
+      "company": "Workday",
+      "companyLogo": "",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/266px-Workday_logo.svg.png?alt=media&token=6f282cc6-2830-4a50-8702-d196ff0bec2d",
+      "country": "Dublin, Ireland",
+      "featured": false,
+      "name": "Raul Portales",
+      "photo": "",
+      "photoUrl": "https://lh4.googleusercontent.com/-XiRQd_jimmU/AAAAAAAAAAI/AAAAAAAAAjA/eE_WTg4FjiE/s172-c/photo.jpg",
+      "pronouns": "he/him",
+      "shortBio": "Software Engineer with a strong focus on product and quality....",
+      "socials": [],
+      "order": 1,
+      "title": "Senior Software Development Engineer and GDE"
+    },
+    "maurizio_parton": {
+      "bio": "I work at University of Chieti - Pescara since 2002: assistant professor up to 2015, associate professor 2015 - today. My original field of research was differential geometry but, since January 2016 when original AlphaGo paper on Nature has been published, I started working in deep reinforcement learning, also because of my involvment in Go as a player and as president of Italian Go association.",
+      "company": "University of Chieti - Pescara and Italian Go Association",
+      "companyLogo": "",
+      "companyLogoUrl": "https://www.unich.it/sites/default/files/logo_1.png",
+      "country": "Pisa, Italy",
+      "featured": false,
+      "name": "Maurizio Parton",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/photo_2019-09-23_12-00-54.jpg?alt=media&token=7bbb2d52-89f0-4e42-b3fe-eaa7371325a5",
+      "pronouns": "he/him",
+      "shortBio": "Professor at University of Chieti - Pescara and President of Italian Go Association",
+      "socials": [],
+      "order": 2,
+      "title": "Differential geometry professor and Go player"
     }
   },
   "team": [
@@ -266,49 +326,6 @@
         }
       ],
       "title": "Core Team"
-    },
-    {
-      "members": [
-        {
-          "name": "Ihor Dvoretskyi",
-          "photo": "/images/people/ihor_dvoretskyi.jpg",
-          "photoUrl": "",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/idvoretskyi",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/idvoretskyi",
-              "name": "Twitter"
-            }
-          ],
-          "order": 0,
-          "title": "Cloud stream"
-        },
-        {
-          "name": "Dmytro Danylyk",
-          "photo": "/images/people/dmytro_danylyk.jpg",
-          "photoUrl": "",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/dmytrodanylyk",
-              "name": "Twitter"
-            },
-            {
-              "icon": "website",
-              "link": "http://www.dmytrodanylyk.com/#/about",
-              "name": "Website"
-            }
-          ],
-          "order": 1,
-          "title": "Android Stream"
-        }
-      ],
-      "title": "Program Committee"
     }
   ],
   "tickets": [
