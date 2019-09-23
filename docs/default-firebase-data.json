@@ -103,7 +103,7 @@
     },
     "102": {
       "complexity": "Intermediate",
-      "description": "Using AlphaGo as a motivation, I will give basics on neural networks and reinforcement learning techniques. I will go into details on how AlphaGo and his Zero derivatives work.",
+      "description": "Using AlphaGo as a motivation, I will give basics on neural networks and reinforcement learning techniques. If time permits, I will go into details on how AlphaGo and his Zero derivatives work.",
       "language": "English",
       "speakers": ["maurizio_parton"],
       "tags": ["AI"],
@@ -158,7 +158,7 @@
       "title": "Senior Software Development Engineer and GDE"
     },
     "maurizio_parton": {
-      "bio": "I work at University of Chieti - Pescara since 2002: assistant professor up to 2015, associate professor 2015 - today. My original field of research was differential geometry but, since January 2016 when original AlphaGo paper on Nature has been published, I started working in deep reinforcement learning, also because of my involvment in Go as a player and as president of Italian Go association.",
+      "bio": "I work at the Italian University of Chieti - Pescara since 2002. My main field of research is Differential Geometry. Since January 2016, when original AlphaGo paper on Nature has been published, I started working also in Deep Reinforcement Learning, because of my involvement in Go as a player and as president of Italian Go Association. I'm part of a research group working on a version of AlphaGo able to maximize score instead of winning rate. I love giving introductory and specialized talks on everything related to Neural Networks, Reinforcement Learning and games!",
       "company": "University of Chieti - Pescara and Italian Go Association",
       "companyLogo": "",
       "companyLogoUrl": "https://www.unich.it/sites/default/files/logo_1.png",
@@ -171,7 +171,7 @@
       "shortBio": "Professor at University of Chieti - Pescara and President of Italian Go Association",
       "socials": [],
       "order": 2,
-      "title": "Differential geometry professor and Go player"
+      "title": "Associate professor at University of Chieti-Pescara, Italy; Deep Learning Italia instructor; president of Italian Go Association"
     }
   },
   "team": [

@@ -212,7 +212,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "<a href='https://gdg-galway.com/' target='_blank'>GDG Galway</a> with support of <a href='https://www.meetup.com/en-AU/AthloneDevelopersGroup/' target='_blank'>GDG Athlone</a> is proud organizer of DevFest Galway 2019",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
