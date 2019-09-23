@@ -13,7 +13,7 @@ script:
   - yarn lint
   - echo "Building..."
   - npm run build:prod
-  - firebase deploy
+  - firebase use devfest-d0310 && firebase deploy
   # - 'if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi'
   # - 'if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi'
 # before_deploy:
