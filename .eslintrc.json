@@ -22,7 +22,9 @@
     "linebreak-style": 0,
     "quotes": "off",
     "comma-dangle": "off",
-    "no-undef": "warn"
+    "no-undef": "warn",
+    "indent": "off",
+    "arrow-parens": "off"
   },
   "globals": {
     "Polymer": true,
