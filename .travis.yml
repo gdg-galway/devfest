@@ -12,6 +12,7 @@ install:
 script:
   - yarn lint
   - echo "Building..."
+  - yarn build:prod
   - yarn deploy:prod
   # - 'if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi'
   # - 'if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi'
