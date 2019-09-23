@@ -12,8 +12,8 @@ install:
 script:
   - yarn lint
   - echo "Building..."
-  - yarn build:prod
-  - yarn deploy:prod
+  - npm run build:prod
+  - firebase deploy
   # - 'if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi'
   # - 'if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi'
 # before_deploy:
