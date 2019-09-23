@@ -163,7 +163,7 @@ function deploy() {
     );
   }
   return run(
-    `firebase use ${metadata.firebase.projectId} && firebase deploy"`
+    `firebase use ${metadata.firebase.projectId} && firebase deploy`
   ).exec();
 }
 
