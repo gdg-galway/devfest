@@ -66,13 +66,79 @@
       "dateReadable": "November 23",
       "timeslots": [
         {
-          "endTime": "09:50",
+          "endTime": "09:30",
           "sessions": [
             {
               "items": [101]
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
             }
           ],
           "startTime": "09:00"
+        },
+        {
+          "endTime": "10:00",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [102]
+            },
+            {
+              "items": []
+            }
+          ],
+          "startTime": "09:40"
+        },
+        {
+          "endTime": "11:10",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [104]
+            },
+            {
+              "items": []
+            }
+          ],
+          "startTime": "10:10"
+        },
+        {
+          "endTime": "11:30",
+          "sessions": [
+            {
+              "items": [103]
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            }
+          ],
+          "startTime": "11:10"
+        },
+        {
+          "endTime": "12:30",
+          "sessions": [
+            {
+              "items": [105]
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            }
+          ],
+          "startTime": "11:30"
         }
       ],
       "tracks": [
@@ -114,6 +180,14 @@
       "speakers": ["maurizio_parton"],
       "tags": ["AI"],
       "title": "AlphaGo and his family, a striking improvement in AI: the five Ws"
+    },
+    "105": {
+      "complexity": "Intermediate",
+      "description": "Machine Learning is one of the most trendy things in IT world right now, a bunch of new services pop-up every single moment, large companies have started to implement different features that utilise Machine Learning(ML). But.... how mortal developers and small and medium business can effectively use machine learn to improve their solutions? In this talk, we are going to discuss the basic concepts around ML and using high-level libraries in JavaScript to implement on our project. Described as a friendly Machine Learning library ml5.js will be our entry door to the Machine Learning world. To wrap up the introduction journey, we will see how we can use ml5.js in a real project. As I mentioned before ml5.js is a Javascript library - the talk is focused on a front-end stack but is open for people who want to learn more about the basic concepts behind machine learning. Let's get coding!!!",
+      "language": "English",
+      "speakers": ["fellyph_cintra"],
+      "tags": ["Web", "Machine Learning"],
+      "title": "Machine learning for mortal developers"
     }
   },
   "speakers": {
@@ -344,7 +418,7 @@
       "price": "FREE",
       "soldOut": false,
       "starts": "October 14",
-      "url": ""
+      "url": "https://www.eventbrite.ie/e/devfest-galway-2019-tickets-75909500359"
     }
   ],
   "triggers": {

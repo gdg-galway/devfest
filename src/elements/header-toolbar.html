@@ -128,7 +128,7 @@
           icon="hoverboard:menu"
           hidden$="[[viewport.isLaptopPlus]]"
           aria-label="menu"
-          on-tap="(openDrawer)"
+          on-tap="openDrawer"
         ></paper-icon-button>
       </div>
       <div layout horizontal center flex>
@@ -166,10 +166,18 @@
           >{$ signIn $}</paper-tab
         >
 
-        <!-- <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
-           ga-event-category="ticket button" ga-event-action="buy_click">
-          <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-        </a> -->
+        <a
+          href$="[[_getTicketUrl(tickets)]]"
+          target="_blank"
+          rel="noopener noreferrer"
+          ga-on="click"
+          ga-event-category="ticket button"
+          ga-event-action="buy_click"
+        >
+          <paper-button class="buy-button" primary
+            >{$ buyTicket $}</paper-button
+          >
+        </a>
       </paper-tabs>
 
       <paper-menu-button
@@ -189,7 +197,7 @@
           >
             <p>{$ notifications.default $}</p>
             <div class="panel-actions" layout horizontal end-justified>
-              <paper-button primary-text on-tap="(_toggleNotifications)"
+              <paper-button primary-text on-tap="_toggleNotifications"
                 >{$ notifications.subscribe $}</paper-button
               >
             </div>
@@ -199,7 +207,7 @@
           >
             <p>{$ notifications.enabled $}</p>
             <div class="panel-actions" layout horizontal end-justified>
-              <paper-button primary-text on-tap="(_toggleNotifications)"
+              <paper-button primary-text on-tap="_toggleNotifications"
                 >{$ notifications.unsubscribe $}</paper-button
               >
             </div>
@@ -214,7 +222,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <paper-button primary-text on-tap="(_closeNotificationMenu)"
+                <paper-button primary-text on-tap="_closeNotificationMenu"
                   >{$ notifications.enable.label $}
                 </paper-button>
               </a>

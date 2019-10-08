@@ -1,12 +1,15 @@
-<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/polymer/polymer-element.html" />
 
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
-<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
+<link
+  rel="import"
+  href="../../bower_components/paper-button/paper-button.html"
+/>
 
-<link rel="import" href="../mixins/redux-mixin.html">
-<link rel="import" href="../elements/shared-styles.html">
-<link rel="import" href="../elements/hoverboard-icons.html">
-<link rel="import" href="../elements/content-loader.html">
+<link rel="import" href="../mixins/redux-mixin.html" />
+<link rel="import" href="../elements/shared-styles.html" />
+<link rel="import" href="../elements/hoverboard-icons.html" />
+<link rel="import" href="../elements/content-loader.html" />
 
 <dom-module id="tickets-block">
   <template>
@@ -43,13 +46,14 @@
       }
 
       .ticket-item[sold-out] {
-        opacity: .5;
+        opacity: 0.5;
         filter: grayscale(1);
         cursor: not-allowed;
       }
 
       .ticket-item[sold-out]:hover {
-        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.07), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.07),
+          0 2px 2px 0 rgba(0, 0, 0, 0.15);
       }
 
       .header {
@@ -140,7 +144,8 @@
         load-to="130%"
         animation-time="1s"
         items-count="{$ contentLoaders.tickets.itemsCount $}"
-        hidden$="[[contentLoaderVisibility]]">
+        hidden$="[[contentLoaderVisibility]]"
+      >
       </content-loader>
 
       <div class="tickets" layout horizontal wrap center-justified>
@@ -157,18 +162,27 @@
             ga-event-category="ticket"
             ga-event-action="buy_click"
             ga-event-label$="[[ticket.name]]"
-            layout vertical
+            layout
+            vertical
           >
             <div class="header">
               <h4>[[ticket.name]]</h4>
             </div>
             <div class="content" layout vertical flex-auto>
               <div class="ticket-price-wrapper">
-                <div class="price">[[ticket.currency]][[ticket.price]]</div>
+                <div class="price">[[ticket.price]]</div>
                 <div class="discount">[[_getDiscount(ticket)]]</div>
               </div>
-              <div class="type-description" layout vertical flex-auto center-justified>
-                <div class="ticket-dates" hidden$="[[!ticket.starts]]">[[ticket.starts]] - [[ticket.ends]]</div>
+              <div
+                class="type-description"
+                layout
+                vertical
+                flex-auto
+                center-justified
+              >
+                <div class="ticket-dates" hidden$="[[!ticket.starts]]">
+                  [[ticket.starts]] - [[ticket.ends]]
+                </div>
                 <div class="ticket-info">[[ticket.info]]</div>
               </div>
             </div>
@@ -176,7 +190,11 @@
               <div class="sold-out" block$="[[ticket.soldOut]]">
                 {$ ticketsBlock.soldOut $}
               </div>
-              <paper-button primary hidden$="[[ticket.soldOut]]" disabled$="[[!ticket.available]]">
+              <paper-button
+                primary
+                hidden$="[[ticket.soldOut]]"
+                disabled$="[[!ticket.available]]"
+              >
                 [[_getButtonText(ticket.available)]]
               </paper-button>
             </div>
@@ -185,38 +203,35 @@
       </div>
 
       <div class="additional-info">*{$ ticketsBlock.ticketsDetails $}</div>
-
     </div>
-
   </template>
 
   <script>
-
     class TicketsBlock extends ReduxMixin(Polymer.Element) {
       static get is() {
-        return 'tickets-block';
+        return "tickets-block";
       }
 
       static get properties() {
         return {
           tickets: {
             type: Array,
-            statePath: 'tickets.list',
-            observer: '_ticketsChanged',
+            statePath: "tickets.list",
+            observer: "_ticketsChanged"
           },
           ticketsFetching: {
             type: Boolean,
-            statePath: 'tickets.fetching',
+            statePath: "tickets.fetching"
           },
           ticketsFetchingError: {
             type: Object,
-            statePath: 'tickets.fetchingError',
+            statePath: "tickets.fetchingError"
           },
           viewport: {
             type: Object,
-            statePath: 'ui.viewport',
+            statePath: "ui.viewport"
           },
-          contentLoaderVisibility: Boolean,
+          contentLoaderVisibility: Boolean
         };
       }
 
@@ -228,16 +243,18 @@
 
       _ticketsChanged(tickets) {
         if (tickets && tickets.length) {
-          this.set('contentLoaderVisibility', true);
+          this.set("contentLoaderVisibility", true);
         }
       }
 
       _getDiscount(ticket) {
-        const primaryTicket = this.tickets.find((ticket) => ticket.primary);
+        const primaryTicket = this.tickets.find(ticket => ticket.primary);
         const maxPrice = primaryTicket && primaryTicket.price;
-        if (!ticket.regular || ticket.primary || ticket.soldOut || !maxPrice) return;
-        const discount = 100 - parseInt(ticket.price) * 100 / parseInt(maxPrice);
-        return ((discount) => `{$ ticketsBlock.save $}`)(Math.round(discount));
+        if (!ticket.regular || ticket.primary || ticket.soldOut || !maxPrice) {
+          return;
+        }
+        const discount = 100 - (parseInt(ticket.price) * 100) / parseInt(maxPrice);
+        return (discount => `{$ ticketsBlock.save $}`)(Math.round(discount));
       }
 
       _onTicketTap(e) {
@@ -248,7 +265,9 @@
       }
 
       _getButtonText(available) {
-        return available ? '{$ buyTicket $}' : '{$ ticketsBlock.notAvailableYet $}';
+        return available
+          ? "{$ buyTicket $}"
+          : "{$ ticketsBlock.notAvailableYet $}";
       }
     }
 
