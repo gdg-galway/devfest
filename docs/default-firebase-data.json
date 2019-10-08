@@ -73,20 +73,14 @@
             }
           ],
           "startTime": "09:00"
-        },
-        {
-          "endTime": "10:50",
-          "sessions": [
-            {
-              "items": [102]
-            }
-          ],
-          "startTime": "10:00"
         }
       ],
       "tracks": [
         {
-          "title": "ENG-G047 Lecture Theatre 03 Lee Theatre"
+          "title": "Foyer"
+        },
+        {
+          "title": "ENG-G047 Lecture Theatre 03"
         },
         {
           "title": "ENG-3035 Lecture Room 05"
@@ -102,6 +96,18 @@
       "title": "Registration & morning Coffee"
     },
     "102": {
+      "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+      "icon": "opening",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
+      "title": "DevFest Galway 2019 Opening"
+    },
+    "103": {
+      "description": "Coffeeeeeee!",
+      "icon": "coffee-break",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
+      "title": "Coffee break"
+    },
+    "104": {
       "complexity": "Intermediate",
       "description": "Using AlphaGo as a motivation, I will give basics on neural networks and reinforcement learning techniques. If time permits, I will go into details on how AlphaGo and his Zero derivatives work.",
       "language": "English",
@@ -332,25 +338,12 @@
     {
       "available": true,
       "currency": "€",
-      "ends": "Nov 1",
-      "info": "Requires valid student/lecturer ID",
-      "name": "EDU",
-      "price": 20,
-      "soldOut": false,
-      "starts": "Sept 25",
-      "url": ""
-    },
-    {
-      "available": true,
-      "currency": "€",
-      "ends": "Nov 1",
-      "info": "Adult ticket",
+      "ends": "November 1",
+      "info": "",
       "name": "Regular",
-      "price": 35,
-      "primary": true,
-      "regular": true,
+      "price": "FREE",
       "soldOut": false,
-      "starts": "Sept 25",
+      "starts": "October 14",
       "url": ""
     }
   ],
