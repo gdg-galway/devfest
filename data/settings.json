@@ -118,15 +118,15 @@
     "short": "Galway, Ireland",
     "address": "University Road, Galway, Ireland",
     "pointer": {
-      "latitude": 0,
-      "longitude": 0,
+      "latitude": 53.283991,
+      "longitude": -9.063650,
       "zoom": 5
     },
     "mapCenter": {
       "latitude": 48,
       "longitude": 8
     },
-    "description": "Completed in November 2010, the Engineering Building houses 1100 students and 110 staff across 400 rooms, making it the largest engineering school in Ireland. It also includes Zinc Café. The architect was a partnership between Taylor Architects and RMJM, while the lead structural engineers on the project were ARUP Consulting and BAM Contractors led the construction. The Engineering Building was built using low embodied energy materials such as zinc and includes novel voided slab systems, grass roofs for water attenuation, natural ventilation, heat exchangers and many other cutting-edge technologies. It was the Public Choice in the 2012 RIAI Irish Architecture Awards. Its resourcefulness as a teaching tool is exciting for students and academics with its exposed construction techniques and an array of ecological building methods."
+    "description": "Completed in November 2010, the Engineering Building houses 1100 students and 110 staff across 400 rooms, making it the largest engineering school in Ireland."
   },
   "mediaQueries": {
     "xs": {
@@ -196,10 +196,10 @@
       "itemsCount": 4
     },
     "previousSpeakers": {
-      "itemsCount": 6
+      "itemsCount": 0
     },
     "tickets": {
-      "itemsCount": 5
+      "itemsCount": 1
     }
   }
 }

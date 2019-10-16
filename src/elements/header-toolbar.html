@@ -25,7 +25,7 @@
       }
 
       :host([transparent]) .toolbar-logo {
-        background-color: var(--hero-logo-color);
+        /* background-color: var(--hero-logo-color); */
         opacity: var(--hero-logo-opacity, 1);
       }
 
@@ -40,9 +40,11 @@
         display: block;
         width: 150px;
         height: 32px;
-        background-color: var(--default-primary-color);
+        /* background-color: var(--default-primary-color); */
         transition: background-color var(--animation);
-        -webkit-mask: url("/images/logo-monochrome.svg") no-repeat;
+        background-image: url("/images/logo-monochrome.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
       }
 
       .nav-items {
@@ -197,7 +199,7 @@
           >
             <p>{$ notifications.default $}</p>
             <div class="panel-actions" layout horizontal end-justified>
-              <paper-button primary-text on-tap="_toggleNotifications"
+              <paper-button primary-text on-tap="(_toggleNotifications)"
                 >{$ notifications.subscribe $}</paper-button
               >
             </div>
@@ -207,7 +209,7 @@
           >
             <p>{$ notifications.enabled $}</p>
             <div class="panel-actions" layout horizontal end-justified>
-              <paper-button primary-text on-tap="_toggleNotifications"
+              <paper-button primary-text on-tap="(_toggleNotifications)"
                 >{$ notifications.unsubscribe $}</paper-button
               >
             </div>
@@ -222,7 +224,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <paper-button primary-text on-tap="_closeNotificationMenu"
+                <paper-button primary-text on-tap="(_closeNotificationMenu)"
                   >{$ notifications.enable.label $}
                 </paper-button>
               </a>

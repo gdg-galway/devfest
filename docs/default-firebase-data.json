@@ -55,6 +55,24 @@
           "logoUrl": "../images/logos/jetbrains-variant-4.svg",
           "name": "JetBrains",
           "url": "https://www.jetbrains.com/"
+        },
+        {
+          "order": 3,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/shopify_logo_whitebg.svg?alt=media&token=68207793-5c5c-41a9-a1d8-75979b0f0231",
+          "name": "Shopify",
+          "url": "https://www.shopify.com/"
+        },
+        {
+          "order": 4,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/IMG_0527.jpg?alt=media&token=c972a4dd-80e3-4b97-876a-f35532f63db1",
+          "name": "Black Pug Studio",
+          "url": "https://blackpugstudio.com/"
+        },
+        {
+          "order": 5,
+          "logoUrl": "https://www.nuigalway.ie/cdn/images/logo.png",
+          "name": "NUI Galway",
+          "url": "https://www.nuigalway.ie/"
         }
       ],
       "order": 1,
@@ -70,12 +88,6 @@
           "sessions": [
             {
               "items": [101]
-            },
-            {
-              "items": []
-            },
-            {
-              "items": []
             }
           ],
           "startTime": "09:00"
@@ -84,13 +96,7 @@
           "endTime": "10:00",
           "sessions": [
             {
-              "items": []
-            },
-            {
               "items": [102]
-            },
-            {
-              "items": []
             }
           ],
           "startTime": "09:40"
@@ -99,57 +105,94 @@
           "endTime": "11:10",
           "sessions": [
             {
-              "items": []
-            },
-            {
               "items": [104]
-            },
-            {
-              "items": []
             }
           ],
           "startTime": "10:10"
         },
         {
-          "endTime": "11:30",
+          "endTime": "12:20",
           "sessions": [
             {
-              "items": [103]
-            },
-            {
-              "items": []
-            },
-            {
-              "items": []
+              "items": [111]
             }
           ],
-          "startTime": "11:10"
+          "startTime": "11:20"
         },
         {
-          "endTime": "12:30",
+          "endTime": "13:00",
+          "sessions": [
+            {
+              "items": [108]
+            }
+          ],
+          "startTime": "12:30"
+        },
+        {
+          "endTime": "14:15",
+          "sessions": [
+            {
+              "items": [107]
+            }
+          ],
+          "startTime": "13:00"
+        },
+        {
+          "endTime": "15:30",
+          "sessions": [
+            {
+              "items": [110]
+            },
+            {
+              "extend" : 3,
+              "items" : [113]
+            }
+          ],
+          "startTime": "14:30"
+        },
+        {
+          "endTime": "16:40",
+          "sessions": [
+            {
+              "items": [112]
+            }
+          ],
+          "startTime": "15:40"
+        },
+        {
+          "endTime": "17:50",
           "sessions": [
             {
               "items": [105]
-            },
-            {
-              "items": []
-            },
-            {
-              "items": []
             }
           ],
-          "startTime": "11:30"
+          "startTime": "16:50"
+        },
+        {
+          "endTime": "18:20",
+          "sessions": [
+            {
+              "items": [106]
+            }
+          ],
+          "startTime": "17:50"
+        },
+        {
+          "endTime": "19:00",
+          "sessions": [
+            {
+              "items": [114]
+            }
+          ],
+          "startTime": "18:30"
         }
       ],
       "tracks": [
         {
-          "title": "Foyer"
+          "title": "ENG-G047 Lecture Theatre"
         },
         {
-          "title": "ENG-G047 Lecture Theatre 03"
-        },
-        {
-          "title": "ENG-3035 Lecture Room 05"
+          "title": "ENG-3035 Lecture Room"
         }
       ]
     }
@@ -188,6 +231,69 @@
       "speakers": ["fellyph_cintra"],
       "tags": ["Web", "Machine Learning"],
       "title": "Machine learning for mortal developers"
+    },
+    "106": {
+      "complexity": "Beginner",
+      "description": "Neurodiversity is a concept where neurological differences are to be recognized and respected as any other human variation. The term is used mostly used for Autism and ADHD; this talk will focus on Autism, a brief introduction and then dive into the benefits of neurodiversity for the workplace and how we can make a difference today. We all know diversity is essential, but neurodiversity is often overlooked since it is invisible.",
+      "language": "English",
+      "speakers": ["raul_portales"],
+      "tags": ["Diversity and Inclusion"],
+      "title": "Neurodiversity"
+    },
+    "107": {
+      "description": "Foooooooood!",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
+      "title": "Lunch"
+    },
+    "108": {
+      "complexity": "Beginner",
+      "description": "Innovation in wearables was historically driven by the clothes and fashion industry as they looked for cheaper, durable, washable textiles. Now we see wearable innovations focused on health and  sustainability. In this talk we will look at where we are with wearables and what the future might bring.",
+      "language": "English",
+      "speakers": ["emily_oneill"],
+      "tags": ["Wearable Technology"],
+      "title": "Fur to Fitbits: the evolution of wearable technology"
+    },
+    "109": {
+      "description": "TBD",
+      "title": "TBD"
+    },
+    "110": {
+      "complexity": "Intermediate",
+      "description": "During this codelab, Julien will use Firebase and Cloud AI APIs to create a Smart Photo Library that organizes pictures automatically based on their content and metadata, and launch it globally!",
+      "language": "English",
+      "speakers": ["julien_garrigues"],
+      "tags": ["Web"],
+      "title": "Build a Smart Photo Library in an hour"
+    },
+    "111": {
+      "complexity": "Intermediate",
+      "description": "In this talk Raul explores what code quality actually means and how to improve it, from CI/CD, Static code analysis, Unit test, testing Android code efficiently, libraries and architectural approach.",
+      "language": "English",
+      "speakers": ["raul_portales"],
+      "tags": ["Android"],
+      "title": "Code Quality in Android development"
+    },
+    "112": {
+      "complexity": "Intermediate",
+      "description": "Shopify's ecommerce solution already powers over 800 000 stores across the globe. Knowing how to customize themes on Shopify gives web designers and developers a desirable set of skills that they can use to grow their business. In this introductory session, Liam will cover the basic elements of Shopify’s Liquid templating language, as well as sharing practical workflow tips, tricks, and techniques that will help you modify Shopify themes.",
+      "language": "English",
+      "speakers": ["liam_griffin"],
+      "tags": ["Web"],
+      "title": "Getting started with Liquid and Shopify Themes"
+    },
+    "113": {
+      "complexity": "Advanced",
+      "description": "Wondering where to start when migrating your Enterprise Project into Microservices? Are you starting a Greenfield Project in Microservice Architecture? Are you anxious about scaling your Enterprise in Cloud? Struggling to translate the much-hyped theory of Microservices Architecture into working Software Systems? Are you new to the world of Microservice Architecture? What are the best practices, patterns and technologies to follow when building Cloud Native Enterprise Applications? Want to see how to Code and Deploy Secure, Resilient and Fault Tolerant Cloud Native Enterprise Microservices using Service Discovery and Load Balancing? Join this Live Programming Session to Develop and Deploy Enterprise Ready Microservices.",
+      "language": "English",
+      "speakers": ["sachin_sadasivan"],
+      "tags": ["Cloud"],
+      "title": "Cloud Native Enterprise Microservices: From Theory to Action"
+    },
+    "114": {
+      "description": "Make sure you won't miss closing ceremony and the final contest to get a special prize!",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
+      "title": "DevFest Galway 2019 Closing"
     }
   },
   "speakers": {
@@ -252,15 +358,79 @@
       "socials": [],
       "order": 2,
       "title": "Associate professor at University of Chieti-Pescara, Italy; Deep Learning Italia instructor; president of Italian Go Association"
+    },
+    "emily_oneill": {
+      "bio": "Content Strategist at IBM Watson Health. Background in product development and testing. Passionate about digital transformations and the role of the content experience. Avid clothes maker and enthusiastic about the possibilities wearable technologies bring us. A learning addict with Masters degrees in Technical Communication and in the Management of Innovation and Technology.",
+      "company": "IBM Watson Health",
+      "companyLogo": "",
+      "companyLogoUrl": "https://www.ibm.com/watson/health/ai-stories/assets/images/ibm-watson-health-logo.png",
+      "country": "Galway, Ireland",
+      "featured": false,
+      "name": "Emily O'Neill",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQH2SMEWAwdXug/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=WmkWCwTT_snisZtYF_88Wp1zC11PkFcoakfbVU1dcqw",
+      "pronouns": "she/her",
+      "shortBio": "",
+      "socials": [],
+      "order": 3,
+      "title": "Content Strategist at IBM Watson Health"
+    },
+    "julien_garrigues": {
+      "bio": "Julien is the Head of Technology of Black Pug Studio. He is a visionary technologist fascinated by the applications of ML and AI, and code optimization. His expertise in Web Technologies and Software Programming contributed to the realisation of large projects for global brands and growing start-ups. He is also one of the Co-Organizers of GDG Galway.",
+      "company": "Black Pug Studio",
+      "companyLogo": "",
+      "companyLogoUrl": "https://www.gtc.ie/wp-content/uploads/2016/03/bps_logo_final_approved_full-1-1024x724.jpg",
+      "country": "Galway, Ireland",
+      "featured": true,
+      "name": "Julien Garrigues",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQHFlCDrRsxsag/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=h3-Qb6-fK7MUHc3jasqVjVq5oKUM-y3kWHvMNEbKwBk",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials": [],
+      "order": 4,
+      "title": "Head of Technology of Black Pug Studio and GDG Galway Co-Organizer"
+    },
+    "liam_griffin": {
+      "bio": "Liam Griffin lives in Sligo, Ireland, where he works as a developer advocate for Shopify, crafting technical tutorials on the Shopify Web Design and Development Blog. With experience in web-development, technical writing, and public speaking, he is passionate about developing learner resources and building better tools for developers.",
+      "company": "Shopify",
+      "companyLogo": "",
+      "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
+      "country": "Sligo, Ireland",
+      "featured": false,
+      "name": "Liam Griffin",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/headshot%20cropped.jpg?alt=media&token=494bceb5-6d24-4130-9d3f-557d5e789a88",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials": [],
+      "order": 5,
+      "title": "Web developer at Shopify"
+    },
+    "sachin_sadasivan": {
+      "bio": "",
+      "company": "Ericsson",
+      "companyLogo": "",
+      "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ericsson_logo.svg",
+      "country": "Athlone, Ireland",
+      "featured": false,
+      "name": "Sachin Sadasivan",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQEe-D1pAnydOQ/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=6Eo43vOmPV93_1_I-Gj9JHtbviT8OUj9p1z3SIwVfSo",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials": [],
+      "order": 6,
+      "title": "Technical Product Owner and Senior Software Engineer at Ericsson"
     }
   },
   "team": [
     {
       "members": [
         {
-          "name": "Oleh Zasadnyy",
-          "photo": "/images/people/oleh_zasadnyy.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+          "name": "Rossano D'Angelo",
+          "photo": "",
+          "photoUrl": "",
           "socials": [
             {
               "icon": "facebook",
@@ -271,34 +441,34 @@
               "icon": "twitter",
               "link": "https://twitter.com/ozasadnyy",
               "name": "Twitter"
-            },
-            {
-              "icon": "website",
-              "link": "http://o.zasadnyy.com/",
-              "name": "Blog"
             }
           ],
           "order": 0,
-          "title": "Website and sponsors"
+          "title": "GDG Galway Lead Organizer"
         },
         {
-          "name": "Sofiya Huts",
-          "photo": "/images/people/sofiya_huts.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
+          "name": "Julien Garrigues",
+          "photo": "",
+          "photoUrl": "",
           "socials": [
             {
               "icon": "facebook",
-              "link": "https://www.facebook.com/sophie.huts.7",
+              "link": "https://www.facebook.com/oleh.zasadnyy",
               "name": "Facebook"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/ozasadnyy",
+              "name": "Twitter"
             }
           ],
           "order": 1,
-          "title": "Social and media"
+          "title": "GDG Galway Co-Organizer"
         },
         {
-          "name": "Vitaliy Zasadnyy",
-          "photo": "/images/people/vitaliy_zasadnyy.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
+          "name": "Swapnil Parashar",
+          "photo": "",
+          "photoUrl": "",
           "socials": [
             {
               "icon": "linkedin",
@@ -309,20 +479,15 @@
               "icon": "twitter",
               "link": "https://twitter.com/zasadnyy",
               "name": "Twitter"
-            },
-            {
-              "icon": "website",
-              "link": "http://v.zasadnyy.com/",
-              "name": "Blog"
             }
           ],
           "order": 2,
-          "title": "Speakers"
+          "title": "GDG Galway Co-Organizer"
         },
         {
-          "name": "Marta Maxymiak",
-          "photo": "/images/people/marta_maxymiak.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
+          "name": "Shadab Ansari",
+          "photo": "",
+          "photoUrl": "",
           "socials": [
             {
               "icon": "facebook",
@@ -331,81 +496,10 @@
             }
           ],
           "order": 3,
-          "title": "Party and happiness"
-        },
-        {
-          "name": "Ostap Andrusiv",
-          "photo": "/images/people/ostap_andrusiv.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/ostap.andrusiv",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/p1f",
-              "name": "Twitter"
-            },
-            {
-              "icon": "website",
-              "link": "http://andrusiv.com/",
-              "name": "Blog"
-            }
-          ],
-          "order": 4,
-          "title": "Sponsors"
-        },
-        {
-          "name": "Vasylyna Mytsak",
-          "photo": "/images/people/vasylyna_mytsak.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/vasylyna_mytsak.jpg",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/vasylyna.mytsak",
-              "name": "Facebook"
-            }
-          ],
-          "order": 5,
-          "title": "Party and happiness"
-        },
-        {
-          "name": "Volodya Karpliuk",
-          "photo": "/images/people/volodya_karpliuk.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvolodya_karpliuk.jpg?alt=media&token=aa08d9c9-c42a-435f-8672-c3a004e3aa08",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/volodya.karpluk",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/keyv23",
-              "name": "Twitter"
-            }
-          ],
-          "order": 6,
-          "title": "Speakers"
-        },
-        {
-          "name": "Diana Pinchuk",
-          "photo": "/images/people/diana_pinchuk.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fdiana_pinchuk.jpg?alt=media&token=189d67d1-004f-4a3c-9e0c-13bc992bbaf7",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/diana.pinchuk.9",
-              "name": "Facebook"
-            }
-          ],
-          "order": 7,
-          "title": "Social and media"
+          "title": "GDG Galway Co-Organizer"
         }
       ],
-      "title": "Core Team"
+      "title": "GDG Galway Team"
     }
   ],
   "tickets": [
