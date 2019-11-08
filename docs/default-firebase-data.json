@@ -93,43 +93,31 @@
           "startTime": "09:00"
         },
         {
-          "endTime": "10:00",
+          "endTime": "10:40",
           "sessions": [
             {
-              "items": [102]
+              "items": [104]
+            },
+            {
+              "items": [106, 108]
             }
           ],
           "startTime": "09:40"
         },
         {
-          "endTime": "11:10",
-          "sessions": [
-            {
-              "items": [104]
-            }
-          ],
-          "startTime": "10:10"
-        },
-        {
-          "endTime": "12:20",
-          "sessions": [
-            {
-              "items": [111]
-            }
-          ],
-          "startTime": "11:20"
-        },
-        {
           "endTime": "13:00",
           "sessions": [
             {
-              "items": [108]
+              "items": [113]
+            },
+            {
+              "items": [112, 116]
             }
           ],
-          "startTime": "12:30"
+          "startTime": "10:50"
         },
         {
-          "endTime": "14:15",
+          "endTime": "14:00",
           "sessions": [
             {
               "items": [107]
@@ -138,53 +126,43 @@
           "startTime": "13:00"
         },
         {
-          "endTime": "15:30",
+          "endTime": "16:20",
           "sessions": [
             {
-              "items": [110]
+              "items": [111, 117]
             },
             {
-              "extend" : 3,
-              "items" : [113]
+              "items": [118]
             }
           ],
-          "startTime": "14:30"
+          "startTime": "14:10"
         },
         {
-          "endTime": "16:40",
-          "sessions": [
-            {
-              "items": [112]
-            }
-          ],
-          "startTime": "15:40"
-        },
-        {
-          "endTime": "17:50",
+          "endTime": "17:30",
           "sessions": [
             {
               "items": [105]
             }
           ],
-          "startTime": "16:50"
+          "startTime": "16:30"
         },
         {
-          "endTime": "18:20",
+          "endTime": "18:40",
           "sessions": [
             {
-              "items": [106]
+              "items": [110]
             }
           ],
-          "startTime": "17:50"
+          "startTime": "17:40"
         },
         {
-          "endTime": "19:00",
+          "endTime": "19:15",
           "sessions": [
             {
               "items": [114]
             }
           ],
-          "startTime": "18:30"
+          "startTime": "18:50"
         }
       ],
       "tracks": [
@@ -294,6 +272,38 @@
       "description": "Make sure you won't miss closing ceremony and the final contest to get a special prize!",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
       "title": "DevFest Galway 2019 Closing"
+    },
+    "115": {
+      "complexity": "Intermediate",
+      "description": "This session starts with a very brief history of VR starting from MIT, the problems and why it has finally becoming mainstream now. It builds up the talk with what is going in in the VR/AR landscape, the pitfalls and with an introduction to what Web Virtual Reality is along with some demo and case study with a hello world of VR live coding. The talk progresses into more real world complex situations and how it is being built now. The second part of the talk introduces the audience to Augmented Reality and when its is useful and when not. What it means to build a Mixed Reality experience. The present hardware and software stack available for it. And what they need to know if they have to build an experience. The talk will also cover ARKit, ARCore and finally the WebXR api and how we can ensure a uniform codebase that works everywhere enabling a Web Mixed Reality that can run in any device and browser with native capability. The talk ends with open research problems for Future work and how they can use this today and contribute in future. In each of first two parts we have live coding demos to actually show how to build the experiences.",
+      "language": "English",
+      "speakers": ["rabimba_karanjai"],
+      "tags": ["Web"],
+      "title": "State of WebXR: What do you need to know today for building Web Mixed Reality Applications"
+    },
+    "116": {
+      "complexity": "Intermediate",
+      "description": "You can do so much nowadays with Web Technologies including Mobile Development. Let me show you the path that I took while developing mobile apps with React Native from a Web Developer perspective.",
+      "language": "English",
+      "speakers": ["juarez_filho"],
+      "tags": ["Web"],
+      "title": "Switching from Web to Mobile development with React Native ⚡️"
+    },
+    "117": {
+      "complexity": "Intermediate",
+      "description": "How CitySwift are applying and integrating cutting edge technology with legacy systems in a traditional industry to ensure your buses arrive on time!",
+      "language": "English",
+      "speakers": ["brian_orourke", "michael_mullarkey"],
+      "tags": ["Big Data"],
+      "title": "Big 'Bus' Data - Integrations, Optimisations and Visualisations"
+    },
+    "118": {
+      "complexity": "Beginner",
+      "description": "I think it's about time we all had a look at Flutter: a Google framework for building iOS and Android apps natively. We'll kick this off with a quick introduction to Flutter and why you should build your next app with it. For the majority of our time, we'll be following a codelab to build our first Flutter app and get an understanding of how it works. Make sure to have an USB cable for your phone to run the app we're going to build.",
+      "language": "English",
+      "speakers": ["brian_lawless", "tommy_kearns"],
+      "tags": ["Flutter"],
+      "title": "Flutter Study Jam"
     }
   },
   "speakers": {
@@ -408,7 +418,7 @@
       "title": "Web developer at Shopify"
     },
     "sachin_sadasivan": {
-      "bio": "",
+      "bio": "Sachin has more than a decade’s experience in Computer Programming. He is passionate about Functional, Object Oriented and Reactive Programming. He works on Enterprise Product Development in Cloud Native Microservices Architecture with Docker and Kubernetes. He also works on developing Products with Artificial Intelligence, Machine Learning and Algorithms.",
       "company": "Ericsson",
       "companyLogo": "",
       "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ericsson_logo.svg",
@@ -422,6 +432,127 @@
       "socials": [],
       "order": 6,
       "title": "Technical Product Owner and Senior Software Engineer at Ericsson"
+    },
+    "rabimba_karanjai": {
+      "badges": [
+        {
+          "description": "Web Technologies Google Developer Expert",
+          "link": "https://developers.google.com/community/experts/directory/profile/profile-rabimba_karanjai",
+          "name": "gde"
+        }
+      ],
+      "bio": "Rabimba Karanjai is a full time graduate researcher, part time hacker and FOSS enthusiast. He is working with Mozilla Research Mixed Reality team on WebVR. He also is a Mozilla TechSpeaker and Google Developer Expert on Web Technologies (WebXR). And would love to chat with you on VR,AR,Security and openweb over a cup of coffee or bottle of beer.",
+      "company": "Mozilla Research Mixed Reality",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Houston, United States",
+      "featured": false,
+      "name": "Rabimba Karanjai",
+      "photo": "",
+      "photoUrl": "https://lh4.googleusercontent.com/-DF6mQqJ5is8/AAAAAAAAAAI/AAAAAAAAFiQ/a7HyKNL5mAk/s172-c/photo.jpg",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials": [],
+      "order": 7,
+      "title": "Graduate researcher, part time hacker, FOSS enthusiast and GDE"
+    },
+    "juarez_filho": {
+      "badges": [
+        {
+          "description": "Web Technologies Google Developer Expert",
+          "link": "https://developers.google.com/community/experts/directory/profile/profile-juarez_filho",
+          "name": "gde"
+        }
+      ],
+      "bio": "Writing code over the last decade for people amusement and to be readable/executable by machines. Born in Brazil. Living in Dublin with my lovely wife and the baby boy. Passionate about Web Technologies. Jesus freak.",
+      "company": "ERS",
+      "companyLogo": "",
+      "companyLogoUrl": "https://www.iaca.org/wp-content/uploads/ERS-Logo-2019.png",
+      "country": "Dublin, Ireland",
+      "featured": false,
+      "name": "Juarez Filho",
+      "photo": "",
+      "photoUrl": "https://pbs.twimg.com/profile_images/1031651450995335171/WKj71OZ6_400x400.jpg",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials" : [
+        {
+          "icon" : "twitter",
+          "link" : "https://twitter.com/juarezpaf",
+          "name" : "Twitter"
+        },
+        {
+          "icon" : "linkedin",
+          "link" : "https://linkedin.com/in/juarezpaf",
+          "name" : "LinkedIn"
+        }
+      ],
+      "order": 7,
+      "title": "Senior Developer at ERS and Google Developer Expert"
+    },
+    "brian_orourke": {
+      "bio": "CEO - Brian is a tech-savvy entrepreneur and former CitiBank analyst, with a range of expertise in leading big data and complex optimization projects, specifically in the mobility sector.",
+      "company": "CitySwift",
+      "companyLogo": "",
+      "companyLogoUrl": "https://miro.medium.com/max/1005/1*lZPawe2yKEBp0-qzeaKbYQ.png",
+      "country": "Galway, Ireland",
+      "featured": false,
+      "name": "Brian O'Rourke",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/1569487551-brianorourke%20(1).png?alt=media&token=46c4c268-940f-4d97-abcc-703d78ba49da",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials" : [],
+      "order": 8,
+      "title": "CEO at CitySwift"
+    },
+    "michael_mullarkey": {
+      "bio": "Head of Product - Computer Science Graduate, that has rapidly grown to now leading Product for CitySwift. Michael and his team have designed, developed and refined the complex product offering into a successful and scalable solution.",
+      "company": "CitySwift",
+      "companyLogo": "",
+      "companyLogoUrl": "https://miro.medium.com/max/1005/1*lZPawe2yKEBp0-qzeaKbYQ.png",
+      "country": "Galway, Ireland",
+      "featured": false,
+      "name": "Michael Mullarkey",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/1569492512-michaelmullarkey.png?alt=media&token=4bb81efc-13f4-4dd7-980d-929ea17fb37a",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials" : [],
+      "order": 9,
+      "title": "Head of Product at CitySwift"
+    },
+    "brian_lawless": {
+      "bio": "",
+      "company": "Ericsson",
+      "companyLogo": "",
+      "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ericsson_logo.svg",
+      "country": "Athlone, Ireland",
+      "featured": false,
+      "name": "Brian Lawless",
+      "photo": "",
+      "photoUrl": "",
+      "pronouns": "he/him",
+      "shortBio": "Working with Ericsson since 1990. Being working in User Experience since 2017.",
+      "socials" : [],
+      "order": 10,
+      "title": "UX Engineer at Ericsson"
+    },
+    "tommy_kearns": {
+      "bio": "",
+      "company": "",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Galway, Ireland",
+      "featured": true,
+      "name": "Tommy Kearns",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/TommyKearnsPicture.jpg?alt=media&token=db65a7d5-209f-4d1f-aaf7-4a33bbd5046e",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials" : [],
+      "order": 11,
+      "title": ""
     }
   },
   "team": [

@@ -1,7 +1,7 @@
 {
   "title": "DevFest Galway 2019",
   "description": "Be a hero. Be a GDG!",
-  "image": "images/social-share.jpg",
+  "image": "images/DevFest-Twitter-Banner.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "November 23, 2019",
   "partnershipProposition": "",
@@ -91,7 +91,7 @@
       },
       "tracks": {
         "label": "Tracks",
-        "number": "3"
+        "number": "2"
       }
     }
   },
