@@ -142,6 +142,9 @@
           "sessions": [
             {
               "items": [105]
+            },
+            {
+              "items": [119]
             }
           ],
           "startTime": "16:30"
@@ -151,6 +154,9 @@
           "sessions": [
             {
               "items": [110]
+            },
+            {
+              "items": [115]
             }
           ],
           "startTime": "17:40"
@@ -304,6 +310,14 @@
       "speakers": ["brian_lawless", "tommy_kearns"],
       "tags": ["Flutter"],
       "title": "Flutter Study Jam"
+    },
+    "119": {
+      "complexity": "Intermediate",
+      "description": "Every developer dreams with an environment to call their own. A complete, production-like place they can tear apart testing their code without messing with other people's work, the problem with all that is this infrastructure is to complex to be created and torn down manually. That's when Kubernetes and Helm shine bright to create completely individual dynamic testing environments for each one of your branches!",
+      "language": "English",
+      "speakers": ["lucas_santos"],
+      "tags": ["Cloud"],
+      "title": "Creating Dynamic Testing Environments With Helm And Kubernetes"
     }
   },
   "speakers": {
@@ -531,7 +545,7 @@
       "featured": false,
       "name": "Brian Lawless",
       "photo": "",
-      "photoUrl": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-d0310.appspot.com/o/20191115_134036.jpg?alt=media&token=eceeeb63-e8e7-463e-82f0-be5da0dc1246",
       "pronouns": "he/him",
       "shortBio": "Working with Ericsson since 1990. Being working in User Experience since 2017.",
       "socials" : [],
@@ -539,7 +553,7 @@
       "title": "UX Engineer at Ericsson"
     },
     "tommy_kearns": {
-      "bio": "",
+      "bio": "Tommy is a final year student of BEng (Hons) Software & Electronic Engineering in GMIT. From repairing friends' handheld consoles as a child, his studies have led his curiosity and passion towards embedded systems and all things programming. Having discovered GDG Athlone (and then Galway) earlier this year, he is keen to learn more about Flutter and other Google developer technologies - while helping people out along the way.",
       "company": "",
       "companyLogo": "",
       "companyLogoUrl": "",
@@ -553,6 +567,43 @@
       "socials" : [],
       "order": 11,
       "title": ""
+    },
+    "lucas_santos": {
+      "badges": [
+        {
+          "description": "Web Technologies Google Developer Expert",
+          "link": "https://developers.google.com/community/experts/directory/profile/profile-lucas_santos",
+          "name": "gde"
+        }
+      ],
+      "bio": "Lucas works as Senior Software Architect at Nindoo. Technology lover and, since 2011, works with highly available and scalable applications. Loves to teach and learn, writer of 'Kubernetes: Everything you need to know about container orchestration'. Also a Microsoft MVP and Google Developer Expert. Member & Contributor to the Node.js Foundation, helping to translate the Node.js runtime documentations to Portuguese. Also is one of the core members of several awesome communities such as: NodeBR, JSSP, VueJs SP, Typescript BR, NodeSchool SP, TrainingCenter and ABCDev. Homebrewer in the free time, loves music and games!",
+      "company": "",
+      "companyLogo": "",
+      "companyLogoUrl": "data:image/png;base64,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",
+      "country": "São Paulo, Brazil",
+      "featured": false,
+      "name": "Lucas Santos",
+      "photo": "",
+      "photoUrl": "https://lh3.googleusercontent.com/-GJ_USDVDiCw/AAAAAAAAAAI/AAAAAAAALJY/KAxVL1ZElXk/s96-c/photo.jpg",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon" : "twitter",
+          "link" : "https://www.twitter.com/_staticvoid",
+          "name" : "Twitter"
+        }, {
+          "icon" : "facebook",
+          "link" : "https://www.facebook.com/lsantos.dev",
+          "name" : "Facebook"
+        }, {
+          "icon" : "linkedin",
+          "link" : "https://www.linkedin.com/in/lhs-santos",
+          "name" : "LinkedIn"
+        }
+      ],
+      "order": 12,
+      "title": "Senior Software Architect at Nindoo and GDE"
     }
   },
   "team": [
