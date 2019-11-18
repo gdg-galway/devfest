@@ -150,7 +150,7 @@
           "endTime": "18:40",
           "sessions": [
             {
-              "items": [110]
+              "items": [119]
             }
           ],
           "startTime": "17:40"
@@ -307,6 +307,14 @@
       "speakers": ["brian_lawless", "tommy_kearns"],
       "tags": ["Flutter"],
       "title": "Flutter Study Jam"
+    },
+    "119": {
+      "complexity": "Intermediate",
+      "description": "We've all been there. Sitting, staring at the screen. Unable to process the code we wrote yesterday. But it doesn't take alcohol to get into that state. It could be a lack of caffeine, a long meeting, or the fact that somehow it's still only Tuesday. How can we write code that's easy to digest and debug even when our brain is not at 100%?",
+      "language": "English",
+      "speakers": ["mike_rockall"],
+      "tags": [""],
+      "title": "Optimise your Codebase for Hungover Developers"
     }
   },
   "speakers": {
@@ -526,7 +534,7 @@
       "title": "Head of Product at CitySwift"
     },
     "brian_lawless": {
-      "bio": "",
+      "bio": "I have been working in the telecoms industry for 29 years. My career changed direction in 2017, when I went into UX Design. Since then I have learnt 'If the User can'\t use your software application, it does NOT work.'",
       "company": "Ericsson",
       "companyLogo": "",
       "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ericsson_logo.svg",
@@ -556,6 +564,22 @@
       "socials" : [],
       "order": 11,
       "title": ""
+    },
+    "mike_rockall": {
+      "bio": "",
+      "company": "ExOrdo",
+      "companyLogo": "",
+      "companyLogoUrl": "https://premc.org/wp-content/uploads/2019/02/ex-ordo-logo.png",
+      "country": "Galway, Ireland",
+      "featured": false,
+      "name": "Mike Rockall",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQEAlCH47H4DEw/profile-displayphoto-shrink_200_200/0?e=1579737600&v=beta&t=nne3Ec7fxYc_dLynaGaYswWu3eLRSUT46vsSlD5nKtM",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials" : [],
+      "order": 12,
+      "title": "CTO at ExOrdo"
     }
   },
   "team": [
