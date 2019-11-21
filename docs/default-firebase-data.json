@@ -141,7 +141,7 @@
           "endTime": "17:30",
           "sessions": [
             {
-              "items": [105]
+              "items": [120]
             },
             {
               "items": [119]
@@ -153,10 +153,10 @@
           "endTime": "18:40",
           "sessions": [
             {
-              "items": [120]
+              "items": [105]
             },
             {
-              "items": [115]
+              "items": [122]
             }
           ],
           "startTime": "17:40"
@@ -166,6 +166,9 @@
           "sessions": [
             {
               "items": [121]
+            },
+            {
+              "items": [115]
             }
           ],
           "startTime": "18:50"
@@ -342,6 +345,14 @@
       "speakers": ["richard_rose"],
       "tags": ["Cloud"],
       "title": "An introduction to Cloud Run on Google Cloud Platform"
+    },
+    "122": {
+      "complexity": "Intermediate",
+      "description": "Sometimes you have that killer idea, but just don't want to have to spin up a lot of infrastructure to try it out... Google Cloud Functions were released in 2018 and provide a useful way to present endpoints for mobile apps, slack commands and consuming IOT data. In this session we'll have a look at how Google Functions work, how they're deployed and the best use cases for them, all through a demo app. There will be a high level introduction to Go, and then Cloud Functions and how they work under the hood. We will then look at some simple sample code, deploy it and watch requests come in and the diagnostic information available. Finally, a summary of usecases will be presented.",
+      "language": "English",
+      "speakers": ["simon_hewitt"],
+      "tags": ["Cloud"],
+      "title": "MVP with Google Cloud Functions"
     }
   },
   "speakers": {
@@ -670,6 +681,28 @@
       ],
       "order": 14,
       "title": "Google Cloud Lab Architect - Professional Cloud Architect, Professional Data Engineer at Google"
+    },
+    "simon_hewitt": {
+      "bio": "Simon has been working in backend systems long enough that he remembers Linux being installed on floppies. He works primarily in Go, and front end development terrifies him.",
+      "company": "Nebulon",
+      "companyLogo": "",
+      "companyLogoUrl": "https://cdn.nebuloninc.com/wp-content/uploads/2019/03/11163213/nebulon%403x.svg",
+      "country": "Belfast, Ireland",
+      "featured": false,
+      "name": "Simon Hewitt",
+      "photo": "",
+      "photoUrl": "",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "socials" : [
+        {
+          "icon" : "twitter",
+          "link" : "https://twitter.com/tyndyll",
+          "name" : "Twitter"
+        }
+      ],
+      "order": 15,
+      "title": "Member of technical staff at Nebulon"
     }
   },
   "team": [
